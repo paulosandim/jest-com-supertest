@@ -1,0 +1,24 @@
+{
+  "name": "jest-com-supertest",
+  "version": "1.0.0",
+  "description": "Automação de testes de APIs REST usando Javascript, Jest e Supertest. Conteúdo do Canal Agilizei e a API usada é a swapi.dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulosandim/jest-com-supertest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulosandim/jest-com-supertest/issues"
+  },
+  "homepage": "https://github.com/paulosandim/jest-com-supertest#readme",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "jest": "^29.5.0"
+  }
+}
