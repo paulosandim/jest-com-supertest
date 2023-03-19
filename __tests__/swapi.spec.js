@@ -1,10 +1,12 @@
 const request = require('supertest')
 
-it('', () => {
+it('', async () => {
   // https://swapi.dev/api
   // /people/1
 
-  const resposta = request(`https://swapi.dev/api`).get(`/people/1`)
+  const resposta = await request(`https://swapi.dev/api`).get(`/people/1`)
 
-  console.log(`Status: ${resposta.status}`)
+  console.log(resposta.status)
+  console.log(resposta.body)
+
 })
