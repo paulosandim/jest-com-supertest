@@ -1,5 +1,10 @@
-it('teste usando jest', () => {
-  const resultadoEsperado = 2
+const request = require('supertest')
 
-  expect(1 + 1 ).toBe(resultadoEsperado)
+it('', () => {
+  // https://swapi.dev/api
+  // /people/1
+
+  const resposta = request(`https://swapi.dev/api`).get(`/people/1`)
+
+  console.log(`Status: ${resposta.status}`)
 })
